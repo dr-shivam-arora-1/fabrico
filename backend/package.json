@@ -7,11 +7,15 @@
     "start": "node server.js",
     "server": "nodemon server.js"
   },
+  "engines": {
+  "node": ">=14.0.0"
+}
+,
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "cloudinary": "^2.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
